@@ -42,7 +42,6 @@ grails.project.dependency.resolution = {
         runtime ":resources:1.1.6"
 
         runtime ":platform-ui:1.0.RC1"
-        runtime ":twitter-bootstrap:2.1.1"
         
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0"
