@@ -5,8 +5,20 @@
 </head>
 <body>
     <theme:zone name="banner">
-        <ui:h1>Showcase</ui:h1>
-        <ui:h2>This is just the Platform UI test app</ui:h2>
+        <ui:carousel>
+            <ui:slide active="${true}">
+                <ui:h1 text="Platform UI Showcase"/>
+                <ui:h2>This is just for testing Themes</ui:h2>
+            </ui:slide>
+            <ui:slide>
+                <ui:h1 text="Inspiration"/>
+                <ui:h2>Blue-skying maverick technologies</ui:h2>
+            </ui:slide>
+            <ui:slide>
+                <ui:h1 text="Destabilizing"/>
+                <ui:h2>Revolutionizing vertical potential</ui:h2>
+            </ui:slide>
+        </ui:carousel>
     </theme:zone>
 
     <theme:zone name="body">
