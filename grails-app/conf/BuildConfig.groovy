@@ -41,7 +41,7 @@ grails.project.dependency.resolution = {
         runtime ":jquery:1.7.1"
         runtime ":resources:1.1.6"
 
-        runtime ":platform-ui:1.0.RC1"
+        compile ":platform-ui:1.0.RC1"
 
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0"
