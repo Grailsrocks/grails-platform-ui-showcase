@@ -22,6 +22,9 @@
     </theme:zone>
 
     <theme:zone name="body">
+        <b>You are running this with the [<theme:name/>] Theme. If it is _default, exit the app
+            and install/add to BuildConfig the ":bootstrap-theme:1.0.RC2" plugin and then run the app again to see what a difference a theme makes.</b>
+        <p>You can browse the <g:link controller="platformUi">Platform UI tools</g:link> to preview your themes and UI Sets.</p>
         <p:dummyText/>
     </theme:zone>
 
