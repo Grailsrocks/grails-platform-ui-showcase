@@ -39,9 +39,14 @@ grails.project.dependency.resolution = {
     plugins {
         runtime ":hibernate:$grailsVersion"
         runtime ":jquery:1.7.1"
-        runtime ":resources:1.1.6"
 
-        compile ":platform-ui:1.0.RC1"
+        runtime ":resources:1.2.RC3"
+        compile ":platform-ui:1.0.RC2"
+
+        compile ":bootstrap-theme:1.0.RC3"
+
+        // Why the hell do we have to add this explicitly?
+        runtime ":twitter-bootstrap:2.2.1"
 
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0"
