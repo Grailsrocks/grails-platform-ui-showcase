@@ -43,10 +43,10 @@ grails.project.dependency.resolution = {
         runtime ":resources:1.2.RC3"
         compile ":platform-ui:1.0.RC2"
 
-        compile ":bootstrap-theme:1.0.RC3"
-
-        // Why the hell do we have to add this explicitly?
-        runtime ":twitter-bootstrap:2.2.1"
+// Uncomment this to use Bootstrap Theme
+//        compile ":bootstrap-theme:1.0.RC3"
+// You may need to uncomment this if you get warnings that Bootstrap resource module cannot be found
+//        runtime ":twitter-bootstrap:2.2.1"
 
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0"
