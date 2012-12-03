@@ -8,18 +8,18 @@ This application is primarily for developers to test their own Platform UI Theme
 ## To run this application
 
 1. Download / clone the repo 
-2. Run the app
-4. Browse to `http://localhost:8080/UiShowcase/platform/ui` and notice how ugly it is
-5. Stop the app
-6. Install the `bootstrap-theme` plugin
-7. Run the app
+2. Run the app: `./grailsw run-app`
+4. Browse to `http://localhost:8080/UiShowcase/` and notice how ugly it is
+5. Stop the app:
+6. Install the `bootstrap-theme` plugin (add `":bootstrap-theme:1.0.RC3` to BuildConfig plugins section)
+7. Run the app: './grailsw run-app'
 8. Notice how it is less ugly
 
 ## To develop your own Themes and UI Sets and run them inside this app
 
 You will need to build your Theme and/or UI Set plugins locally (inline plugins *may* work but I never use them and do not trust them) and install them into this app project locally.
 
-**I strongly recommend that you use Grails 1.3.7+ or 2.0.4 if doing this. There are a number of very confusing dependency problems with re-installing locally built snapshot plugins under other Grails versions. Grails 2.1.x includes apparent regressions in this area**
+See the copious [Platform UI documentation](http://grailsrocks.guthub.com/grails-platform-ui/) for details of how to create your own Theme. Its a lot easier than you think.
 
 ## Selecting the active theme when you have more than one installed
 
