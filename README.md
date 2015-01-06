@@ -19,7 +19,7 @@ This application is primarily for developers to test their own Platform UI Theme
 
 You will need to build your Theme and/or UI Set plugins locally (inline plugins *may* work but I never use them and do not trust them) and install them into this app project locally.
 
-See the copious [Platform UI documentation](http://grailsrocks.guthub.com/grails-platform-ui/) for details of how to create your own Theme. Its a lot easier than you think.
+See the copious [Platform UI documentation](http://grailsrocks.github.com/grails-platform-ui/) for details of how to create your own Theme. Its a lot easier than you think.
 
 ## Selecting the active theme when you have more than one installed
 
